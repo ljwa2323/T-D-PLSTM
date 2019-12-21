@@ -44,5 +44,7 @@ bash train.sh
 
 ---
 ### Visualization of model prediction results
+![alt text](/pics/预测结果图.png)
+### The model structure of plsmt-d
 ![alt text](/pics/模型结构图.png)
 
