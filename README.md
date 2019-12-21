@@ -9,10 +9,10 @@ These methods include **lstm-d, gru-d, plstm-d, Time weighted lstm-d, Time weigh
 
 2. Then unzip the data file
 
-'''python
+```bash
 cd /data
 bash unzip.sh
-'''
+```
 
 3. Run the R code to produce the intermediate data that needs to be used later
 (Here, you need a R environment where the vision is greater than 3.3.0)
