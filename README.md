@@ -20,24 +20,24 @@ run **data_prepare.R** in an environment of R, maybe you will do this in Rstudio
 
 4. Create the folders for saving result pictures and docs.
 
-'''bash
+```bash
 cd ./project
 bash create_result_folder.sh
-'''
+```
 
 ### Modeling
 1. Edit the --xs, --ma, --de, they represent the path of Xs.csv, mask.csv and deltat.csv, respectively. For the meaning of the datasets' names, you can read the paper. After editting, run the code below.
 
-'''bash
+```bash
 cd ./project
 python main.py [-h] [--xs XS] [--ma MA] [--de DE] [--epoch EPOCH] [--lr LR]
                [--mt MT] [--bat BAT] [--tp TP] [--seed SEED] [--bign BIGN]
                [--hid HID] [--timew TIMEW]
-'''
+```
                
 or you can edit the train.sh, and then 
 
-'''bash
+```bash
 bash train.sh
-'''
+```
 
