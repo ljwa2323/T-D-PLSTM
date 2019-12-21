@@ -25,6 +25,7 @@ run **data_prepare.R** in an environment of R, maybe you will do this in Rstudio
 > python main.py [-h] [--xs XS] [--ma MA] [--de DE] [--epoch EPOCH] [--lr LR]
                [--mt MT] [--bat BAT] [--tp TP] [--seed SEED] [--bign BIGN]
                [--hid HID] [--timew TIMEW]
+               
 or you can edit the train.sh, and then 
 > bash train.sh
 
