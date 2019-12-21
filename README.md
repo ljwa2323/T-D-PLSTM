@@ -41,3 +41,8 @@ or you can edit the train.sh, and then
 bash train.sh
 ```
 
+
+---
+### Visualization of model prediction results
+![alt text](/pics/模型结构图.png)
+
