@@ -9,6 +9,13 @@ for(i in 3:10){
   }
 }
 
+for(i in 3:10){
+  timewindow = i
+  file.copy(from = paste0('/data_', timewindow,'.csv'), to = paste0('data',timewindow,'/data_', timewindow,'.csv'))
+  file.remove(paste0('/data_', timewindow,'.csv'))
+}
+
+
 # 修改每个时间窗里面数据集的名字统一为 data.csv
 for(i in 3:10){
   timewindow = i
