@@ -8,7 +8,8 @@ These methods include **lstm-d, gru-d, plstm-d, Time weighted lstm-d, Time weigh
 1. Firstly, your data should be like below:
 
 2. Then unzip the data file
-'''
+
+'''bash
 cd /data
 bash unzip.sh
 '''
@@ -18,14 +19,16 @@ bash unzip.sh
 run **data_prepare.R** in an environment of R, maybe you will do this in Rstudio or the R's own IDE.
 
 4. Create the folders for saving result pictures and docs.
-'''
+
+'''bash
 cd ./project
 bash create_result_folder.sh
 '''
 
 ### Modeling
 1. Edit the --xs, --ma, --de, they represent the path of Xs.csv, mask.csv and deltat.csv, respectively. For the meaning of the datasets' names, you can read the paper. After editting, run the code below.
-'''
+
+'''bash
 cd ./project
 python main.py [-h] [--xs XS] [--ma MA] [--de DE] [--epoch EPOCH] [--lr LR]
                [--mt MT] [--bat BAT] [--tp TP] [--seed SEED] [--bign BIGN]
@@ -33,7 +36,8 @@ python main.py [-h] [--xs XS] [--ma MA] [--de DE] [--epoch EPOCH] [--lr LR]
 '''
                
 or you can edit the train.sh, and then 
-'''
+
+'''bash
 bash train.sh
 '''
 
