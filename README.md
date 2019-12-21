@@ -9,7 +9,7 @@ These methods include **lstm-d, gru-d, plstm-d, Time weighted lstm-d, Time weigh
 
 2. Then unzip the data file
 
-'''bash
+'''python
 cd /data
 bash unzip.sh
 '''
